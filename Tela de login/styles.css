@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+body {
+    background-color: #A88B6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    background-color: #735BA8;
+    border: 3px solid #000;
+
+    margin-top: 100px;
+
+    width: 90%;
+    min-width: 320px;
+    max-width: 800px;
+    
+    box-shadow: 6px -5px 0px 0 rgba(0, 0, 0, 0.927);
+}
+
+.ladoalado {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.ilustracao{
+    display: flex; 
+    margin: 44px 25px 25px 100px;
+    
+}
+
+@media (max-width: 815px) {
+    .ilustracao {
+      display: none;
+    }
+  }
+
+.header{
+    display: flex;
+    font-family: 'Chivo Mono', monospace;
+
+    background-color: #39285C;
+    border-bottom: 3px solid #000;
+    
+    padding: 8px 0px 8px 20px;
+    width: 97.5%;
+    height: 40px;
+}
+
+h1{
+    width: 500px;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content:left;
+    flex-direction: column;
+    
+   
+}
+
+
+p{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 600;
+    margin: 44px 8px 8px 25px;
+    font-size: 18px;
+}
+
+.redes {
+    display: flex;
+    margin: 8px 8px 8px 25px;
+}
+
+.redes img:hover{
+    background-color: #2D5C34;
+    transition-duration: .5s;
+}
+
+.redes img{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #000;
+
+    background-color: #4AA857;
+
+    padding: 5px;
+    margin-right: 8px;
+}
+  
+hr{
+    float: center;
+    margin: 15px 8px 15px 25px;
+    width: 85%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 8px 8px 25px;
+
+    font-family: 'Chivo Mono', monospace;
+}
+
+#email{
+    margin: 0px 0px 8px 0px;
+    width: 200px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+    font-family: 'Chivo Mono', monospace;
+}
+
+
+#password{
+    margin: 0px;
+    width: 200px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#boxemail{
+    padding: 0px 0px 5px 0px;
+    font-size: 14px;
+}
+
+#boxsenha{
+    padding: 0px 0px 5px 0px;
+    font-size: 14px;
+}
+
+.links{
+    display: flex;
+}
+
+.remember{
+    margin: 8px 8px 8px 25px;
+}
+
+#lembrar{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.forget{
+    margin: 8px 8px 8px 8px;
+}
+
+#forget{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+#entrar{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+
+    margin: 15px 8px 8px 25px;
+    padding: 3px 0px 3px 0px;  
+    border: 3px solid #000;
+    width: 200px;
+
+    background-color:#4AA857;
+
+    cursor: pointer;
+}
+
+#entrar:hover{
+    background-color: #2D5C34;
+    transition-duration: .5s;
+}
+
+#create{
+    display: flex;
+    font-size: 14px;
+    margin: 8px 0px 8px 25px;
+    width: 330px;
+
+}
+
+#create > a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    margin-left: 8px;
+    margin-bottom: 44px;
+}
+
